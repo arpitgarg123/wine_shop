@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+ @font-face {
+    font-family: ninna;
+    src: url(./assets/fonts/Ninna-Regular.otf);
+ }
+body{
+    background-color: #F4F3F2;
+    color: #000000;
+}
+.hero-container {
+  position: relative;
+  height: 100vh; /* full viewport height */
+  width: 100%;
+  background-image: url(./assets/image.png);
+  /* background-image: url(./assets/slider-1.jpg); */
+  background-size: cover;
+  background-position: center;
+  /* background-color:#C2B4A7 ; */
+  /* filter: */
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+ background: linear-gradient(
+    to bottom, 
+    rgba(0, 0, 0, 0) 0%,   /* dark at top */
+    rgba(0, 0, 0, 0.333) 50%,  /* semi-transparent in middle */
+    rgba(93, 188, 29, 0) 100%  /* transparent at bottom */
+  );
+  z-index: 10; /* make sure it's below text and navbar */
+}
+.center-img{
+  position: relative;
+  height: 40vh; /* full viewport height */
+  width: 40%;
+  /* background-image: url(./assets/hero.png); */
+  background-image: url(./assets/slider-1.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.text-shadow-md {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* medium shadow */
+}
+
+.text-shadow-lg {
+  text-shadow: 6px 6px 18px rgba(0, 0, 0, 0.8); /* strong shadow */
+}
+.text-shadow-xl {
+  text-shadow: 2px 2px  5px rgb(0, 0, 0); /* strong shadow */
+}
