@@ -72,7 +72,7 @@ const Page5 = () => {
         <motion.div
           initial={{ y: 100, opacity: 0, scale: 0.8 }}
           whileInView={{ y: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5, ease: "easeOut", delay: 1.2 }}
+          transition={{ duration: 0.7, ease: "easeOut", delay: 0.9 }}
           viewport={{ once: true }}
           className="absolute left-1/2 top-48 transform  -translate-x-1/2 -translate-y-1/2 z-30"
         >
@@ -162,7 +162,7 @@ const Page5 = () => {
               <motion.span
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
+                transition={{ duration: 0.6, delay: 0.5 }}
                 viewport={{ once: true }}
                 className="block"
               >
@@ -174,7 +174,7 @@ const Page5 = () => {
       <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.4 }}
+            transition={{ duration: 0.8, delay: 0.7 }}
             viewport={{ once: true }}
             className="mt-8 sm:mt-12 md:mt-16 lg:mt-20"
           >
@@ -183,7 +183,7 @@ const Page5 = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 1.4 }}
+            transition={{ duration: 0.8, delay: 0.9 }}
             viewport={{ once: true }}
           >
             <p className="text-sm sm:text-base md:text-md lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">
@@ -195,7 +195,7 @@ const Page5 = () => {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 1.6 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
             viewport={{ once: true }}
             className="mt-5 sm:mt-8 md:mt-10"
           >
