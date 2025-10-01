@@ -45,10 +45,10 @@ LuxuryWine            </motion.span>
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
-          className="mb-6 sm:mb-8 md:mb-5 lg:mb-6"
+          className="mb-6 sm:mb-8 md:mb-5 lg:mb-6 h-10"
         >
           <motion.button
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1 }}
             whileTap={{ scale: 0.95 }}
             className="btn"
           >
