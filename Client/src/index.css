@@ -14,21 +14,34 @@
   --text: #000000;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--page-bg);
   color: var(--text);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /* HERO: CSS-driven background */
 .hero-container {
   position: relative;
-  height: 100vh;
-  height: 100svh; /* mobile-safe viewport */
+  min-height: 100vh;
+  min-height: 100svh; /* mobile-safe viewport */
   width: 100%;
-  background-image: url("./assets/image.png"); /* aapki file */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Readability overlay */
@@ -44,7 +57,6 @@ body {
   z-index: 0;
 }
 
-/* Optional center image block (if ever used) */
 .center-img {
   position: relative;
   height: 40vh;
@@ -54,12 +66,10 @@ body {
   background-position: center;
 }
 
-/* Text shadows */
 .text-shadow-md { text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); }
 .text-shadow-lg { text-shadow: 6px 6px 18px rgba(0, 0, 0, 0.8); }
 .text-shadow-xl { text-shadow: 2px 2px 5px rgb(0, 0, 0); }
 
-/* NAVBAR: fixed, clean; DO NOT force text color here */
 .navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -70,14 +80,15 @@ body {
   /* color: white;  <-- REMOVE: dynamic color React se aa raha hai */
 }
 
-/* Buttons */
 .btn{
   padding: 0.5rem 2.5rem;
   border: 1px solid currentColor;
   transition: all ease 0.3s;
   cursor: pointer;
   background-color: #8B2C34;
-  color: #CBBCA8;
+  color: #F4F3F2;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .btn:hover {
   border: 2px solid #8B2C34;
@@ -85,7 +96,54 @@ body {
   color: #8B2C34;
 }
 
-/* Small screens typography safety */
+/* Responsive utilities */
+@media (min-width: 475px) {
+  html { font-size: 14px; }
+}
+
+@media (min-width: 640px) {
+  html { font-size: 15px; }
+}
+
+@media (min-width: 768px) {
+  html { font-size: 16px; }
+}
+
+@media (min-width: 1024px) {
+  html { font-size: 17px; }
+}
+
+@media (min-width: 1280px) {
+  html { font-size: 18px; }
+}
+
+/* Small screens optimization */
+@media (max-width: 320px) {
+  .hero-container { 
+    min-height: 100vh;
+    padding: 0 0.5rem;
+  }
+  
+  html { font-size: 13px; }
+}
+
 @media (max-width: 420px) {
-  .hero-container { background-position: 50% 30%; }
+  .hero-container { 
+    background-position: 50% 30%; 
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .hero-container {
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+  }
+}
+
+/* High-resolution screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero-container {
+    background-size: cover;
+  }
 }
