@@ -15,15 +15,15 @@ const Page3 = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
-          className="mb-6 sm:mb-8 md:mb-10 lg:mb-12"
+          className="mb-6 sm:mb-8 md:mb-7 lg:mb-8"
         >
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[ninna] font-light text-[#873942] leading-none tracking-tight">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[nexa] text-[#873942] leading-none tracking-tight">
             <motion.span
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
-              className="block mb-2 sm:mb-3 md:mb-4"
+              className="block mb-2 sm:mb-3 md:mb-0"
             >
               Perfect On 
             </motion.span>
@@ -64,7 +64,7 @@ LuxuryWine            </motion.span>
           viewport={{ once: true }}
           className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl px-4 sm:px-6 md:px-8 lg:px-12"
         >
-          <p className="text-xs xs:text-sm sm:text-base md:text-sm lg:text-md text-center text-gray-700 font-medium leading-relaxed sm:leading-7 md:leading-6">
+          <p className="text-xs xs:text-xs  md:text-md lg:text-xl text-center text-gray-700 font-medium leading-relaxed sm:leading-7 md:leading-6">
            Perfect choice 🍷 Noble Hill is a South African estate known for high-quality wines with a modern yet authentic style.
           </p>
         </motion.div>

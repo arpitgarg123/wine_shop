@@ -34,7 +34,7 @@ const Page4 = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
-          className="mb-6 sm:mb-8 md:mb-10 lg:mb-12"
+          className="mb-6 sm:mb-8  md:mb-7 lg:mb-8"
         >
           <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[ninna] font-light text-[#873942] leading-none tracking-tight">
             <motion.span
@@ -83,7 +83,7 @@ beginning            </motion.span>
           viewport={{ once: true }}
           className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl px-4 sm:px-6 md:px-8 lg:px-12"
         >
-          <p className="text-xs xs:text-sm sm:text-basemd:text-sm lg:text-md text-center text-gray-700 font-medium leading-relaxed sm:leading-7 md:leading-5">
+          <p className="xs:text-xs  md:text-md lg:text-xl text-center text-gray-700 font-medium  sm:leading-7 md:leading-6">
 Our vision was clear:* To make quality wines accessible, enjoyable, and meaningful.* Over the years, we’ve built strong partnerships with trusted vineyards and winemakers, ensuring that every bottle we offer reflects tradition, craftsmanship, and authenticity.          </p>
         </motion.div>
       </div>

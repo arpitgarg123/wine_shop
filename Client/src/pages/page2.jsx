@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <div className='w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 '>
-        <h1 className='text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-4xl font-[ninna] mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-[#873942] font-black text-center leading-tight'>
+        <h1 className='text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-4xl font-[nexa] mb-4 sm:mb-6 md:mb-8 lg:mb-10 text-[#873942]  text-center leading-tight'>
           Who Are The Best
         </h1>
      

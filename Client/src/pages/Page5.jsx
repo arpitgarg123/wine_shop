@@ -134,7 +134,7 @@ const Page5 = () => {
             viewport={{ once: true }}
           >
             <motion.h1
-              className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[7rem] font-regular text-[#873942] leading-none tracking-tight font-[ninna]"
+              className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[7rem] font-regular text-[#873942] leading-none tracking-tight font-[nexa]"
               style={{
                 textShadow: '4px 4px 12px rgba(135, 57, 66, 0.3)'
               }}
@@ -178,7 +178,7 @@ const Page5 = () => {
             viewport={{ once: true }}
             className="mt-8 sm:mt-12 md:mt-16 lg:mt-20"
           >
-            <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-xl font-semibold text-[#873942]'>Discover Our Wines - Winestitute Winery</h2>
+            <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-3xl  text-[#873942]'>Discover Our Wines - Winestitute Winery</h2>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -197,11 +197,10 @@ const Page5 = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
             viewport={{ once: true }}
-            className="mt-5 sm:mt-8 md:mt-10"
+            className="mt-5 sm:mt-8 md:mt-10 flex justify-center"
           >
             <motion.button
-              whileHover={{ scale: 1,}}
-              whileTap={{ scale: 0.9 }}
+           
               className="btn "
             >
               DISCOVER OUR COLLECTION

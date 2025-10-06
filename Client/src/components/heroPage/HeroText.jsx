@@ -12,7 +12,7 @@ const HeroText = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1.5 }}
-        className="text-2xl max-md:text-6xl max-sm:text-[3rem] xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-light font-[ninna] text-white  drop-shadow-2xl leading-none"
+        className="text-2xl max-md:text-6xl max-sm:text-[3rem] xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl  font-[nexa] text-white  drop-shadow-2xl leading-none"
         style={{
           textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0px 0px 20px rgba(0,0,0,0.5)'
         }}
@@ -24,7 +24,7 @@ const HeroText = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1.8 }}
-        className="text-3xl xs:text-4xl max-md:text-6xl max-sm:text-[3rem]  sm:text-2xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-7xl font-light font-[ninna] text-white drop-shadow-2xl leading-none"
+        className="text-3xl xs:text-4xl max-md:text-6xl max-sm:text-[3rem]  sm:text-2xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-7xl  font-[nexa] text-white drop-shadow-2xl leading-none"
         style={{
           textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0px 0px 20px rgba(0,0,0,0.5)'
         }}
@@ -40,7 +40,7 @@ const HeroText = () => {
         transition={{ duration: 1.2, delay: 2.1 }}
         className="max-w-[280px] max-md:w-[60vw] xs:max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl px-3 xs:px-4 sm:px-6 max-md:px-0 md:px-8 py-2 xs:py-3 sm:py-4"
       >
-        <p className="text-xs xs:text-sm max-md:text-lg max-sm:text-sm  sm:text-base md:text-lg lg:text-xl xl:text-lg font-medium leading-relaxed text-white text-center"
+        <p className="text-xs xs:text-sm max-md:text-lg max-sm:text-sm  sm:text-base md:text-lg lg:text-xl xl:text-lg font-[bembo] leading-relaxed text-white text-center"
            style={{
              textShadow: '1px 1px 4px rgba(0,0,0,0.8)'
            }}>
@@ -54,7 +54,7 @@ const HeroText = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.4, delay: 2.4 }}
-        className=" text-2xl xs:text-3xl max-md:text-6xl max-sm:text-[3rem]  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-light font-[ninna] text-white drop-shadow-2xl leading-none"
+        className=" text-2xl xs:text-3xl max-md:text-6xl max-sm:text-[3rem]  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-light font-[nexa] text-white drop-shadow-2xl leading-none"
         style={{
           textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0px 0px 20px rgba(0,0,0,0.5)'
         }}

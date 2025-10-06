@@ -2,11 +2,14 @@
 
 /* Better font-face: add display swap + fallback formats if you have */
 @font-face {
-  font-family: "ninna";
-  src: url("./assets/fonts/Ninna-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  font-family: "nexa ";
+  src: url("./assets/fonts/Nexa-ExtraLight.ttf") format("opentype");
+
+}
+@font-face {
+  font-family: "bembo ";
+  src: url("./assets/fonts/BemboBookMTStdRegular.otf") format("opentype");
+
 }
 
 :root {
@@ -29,6 +32,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family:'bembo ';
 }
 
 /* HERO: CSS-driven background */
@@ -85,13 +89,21 @@ body {
   border: 1px solid currentColor;
   transition: all ease 0.3s;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+gap: 0.5rem ;
   background-color: #8B2C34;
   color: #F4F3F2;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
+  width: fit-content;
+    border: 2px solid #8B2C34;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+
 }
 .btn:hover {
-  border: 2px solid #8B2C34;
   background-color: transparent;
   color: #8B2C34;
 }
