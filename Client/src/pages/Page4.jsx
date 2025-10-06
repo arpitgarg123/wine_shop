@@ -36,7 +36,7 @@ const Page4 = () => {
           viewport={{ once: true }}
           className="mb-6 sm:mb-8  md:mb-7 lg:mb-8"
         >
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[ninna] font-light text-[#873942] leading-none tracking-tight">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-[nexa] font-light text-[#873942] leading-none tracking-tight">
             <motion.span
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
