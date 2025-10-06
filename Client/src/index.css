@@ -7,6 +7,11 @@
 
 }
 @font-face {
+  font-family: "nexa-bold ";
+  src: url("./assets/fonts/Nexa-Heavy.ttf") format("opentype");
+
+}
+@font-face {
   font-family: "bembo ";
   src: url("./assets/fonts/BemboBookMTStdRegular.otf") format("opentype");
 

@@ -54,7 +54,7 @@ const HeroText = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.4, delay: 2.4 }}
-        className=" text-2xl xs:text-3xl max-md:text-6xl max-sm:text-[3rem]  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl  font-[nexa] text-white drop-shadow-2xl leading-none"
+        className=" text-2xl xs:text-3xl max-md:text-6xl max-sm:text-[3rem]  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl   font-[nexa-bold] text-white drop-shadow-2xl leading-none"
         style={{
           textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0px 0px 20px rgba(0,0,0,0.5)'
         }}
