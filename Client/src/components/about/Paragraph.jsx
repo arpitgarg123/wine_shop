@@ -42,11 +42,9 @@ const Paragraph = () => {
       ref={textRef}
  className="text-lg text-black leading-8  text-center w-full max-w-4xl z-50
   max-lg:text-sm max-sm:text-[3vw]">
-     Winestitute is an authorized wine distributor in Nigeria and the Exclusive distributors of the Noble Hill Wines in Nigeria.
-
-At <strong>Winestitute</strong> , wine is more than a drink—it’s an experience, a culture, and a way of life. We’re here to help you discover wines you’ll love and moments you’ll always remember. Founded with a love for fine wines and a vision to make quality accessible, we specialize in sourcing, curating, and delivering wines from renowned vineyards and hidden gems across the world. Whether you’re a casual wine lover, a collector, or a business looking to impress clients, we ensure that each sip brings delight and sophistication.
-    </p>
-  );
+    We are more than distributors, we are Curators of remarkable wines.Our portfolio is delibertely selective, built on exclusive partnerships with world-class estates and family-owned producers.every bottle we share carries not just prrestige and provence, but a story worth telling at the finest tables.
+  </p>
+  )
 };
 
 export default Paragraph;

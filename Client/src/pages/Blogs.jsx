@@ -68,7 +68,7 @@ const Blogs = () => {
   }
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-[#F8F5F2] to-[#F4F1EE] ">
+    <div className="min-h-screen w-full  ">
       
       {/* Background decorative elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">

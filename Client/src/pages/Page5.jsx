@@ -171,22 +171,15 @@ const Page5 = () => {
             </motion.h1>
           </motion.div>
 
-      <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
-            viewport={{ once: true }}
-            className="mt-8 sm:mt-12 md:mt-16 lg:mt-20"
-          >
-            <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-3xl  text-[#873942]'>Discover Our Wines - Winestitute Winery</h2>
-          </motion.div>
+     
+        
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.9 }}
             viewport={{ once: true }}
           >
-            <p className="text-sm sm:text-base md:text-md lg:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">
+            <p className="text-sm sm:text-base md:text-md lg:text-lg mt-6 max-w-5xl mx-auto leading-relaxed px-4">
              At Winestitute, we take pride in showcasing wines that embody heritage, craftsmanship, and unforgettable flavor.
 <br />
 🥂 Award-Winning Quality-Recognized globally, Noble Hill wines have earned awards and praise from critics and wine enthusiasts for their depth, complexity, and outstanding value.
@@ -203,7 +196,7 @@ const Page5 = () => {
            
               className="btn "
             >
-              DISCOVER OUR COLLECTION
+              discover more
             </motion.button>
           </motion.div>
         </div>

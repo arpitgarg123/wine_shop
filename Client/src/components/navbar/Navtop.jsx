@@ -6,13 +6,13 @@ import darkLogo from "../../assets/darkLogo.png";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const navLinksLeft = [
-  { name: "Home", href: "/" },
+  { name: "search..", href: "/" },
+  { name: "Shop", href: "/shop" },
   { name: "About us", href: "/about" },
 ];
 
 const navLinksRight = [
-  { name: "Wine Shop Marketplace", href: "/wins" },
-  { name: "Blogs", href: "/blogs" },
+  { name: "news & events", href: "/news" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -26,10 +26,10 @@ const NavItem = ({ name, href, mobile = false, onClick }) => {
       <a
         href={href}
         onClick={onClick}
-        className={`font-medium transition-colors duration-200 rounded whitespace-nowrap ${
+        className={`font-medium uppercase text-sm transition-colors duration-200 rounded whitespace-nowrap ${
           mobile 
             ? "block px-4 py-3 text-lg text-white hover:text-[#8B2C34] hover:bg-white/10" 
-            : "px-2 sm:px-3 py-1 sm:py-2 text-[#8B2C34] hover:text-black"
+            : "px-2 sm:px-3 py-1 sm:py-2 hover:text-[#8B2C34] text-black"
         }`}
       >
         {name}
@@ -122,7 +122,7 @@ const Navtop = () => {
             transition={{ duration: 0.6 }}
             className="absolute left-1/2 transform -translate-x-1/2"
           >
-            <img src={burgundy} alt="Logo" className="h-8 sm:h-10" />
+            <img src={darkLogo} alt="Logo" className="h-8 sm:h-10" />
           </motion.div>
 
           {/* Right links - Desktop only */}

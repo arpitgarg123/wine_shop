@@ -2,32 +2,31 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Navtop from '../components/navbar/Navtop'
 import HeroText from '../components/heroPage/HeroText'
-import heroImg from '../assets/hero.jpg'
+import heroImg from '../assets/hero1.jpg'
 
 
 const Hero = () => {
   return (
-    <div className='hero-container relative overflow-hidden'>
+    <div className='hero-container relative flex flex-col items-center justify-end overflow-hidden'>
       <div className='absolute inset-0'>
         <Navtop />
       </div>
       
-      <div className='flex h-screen w-full items-center flex-col justify-center relative px-3 sm:px-4 md:px-6 lg:px-8 pt-16 sm:pt-20 md:pt-24'>
+      <div className='flex h-screen w-full items-center flex-col justify-center relative mt-10 '>
         <motion.div 
           initial={{ width: 0 }}
-          animate={{ width: '95%' }}
+          animate={{ width: '100%' }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          className='w-full max-w-6xl h-[50vh] xs:h-[55vh] max-sm:h-[80vh] sm:h-[80vh] md:h-[65vh] lg:h-[70vh] xl:h-[75vh] 2xl:h-[35vw] flex justify-center relative'
+          className='w-full  h-[50vh] xs:h-[55vh] max-sm:h-[80vh] sm:h-[80vh] md:h-[65vh] lg:h-[70vh] xl:h-[75vh] 2xl:h-[42vw] flex justify-center relative'
         >
           <img 
             src={heroImg} 
             alt="Hero" 
-            className='w-full h-full object-cover rounded-xl sm:rounded-2xl shadow-2xl' 
+            className='w-full h-full object-cover ' 
           />
-          <div className="absolute inset-0 bg-black/30 backdrop-blur-[0.5px] rounded-xl sm:rounded-2xl"></div>
+          <div className="absolute inset-0 bg-black/30 "></div>
         </motion.div>
         
-        <HeroText />
       </div>
     </div>
   )

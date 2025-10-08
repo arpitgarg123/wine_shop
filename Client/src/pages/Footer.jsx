@@ -111,7 +111,7 @@ const Footer = () => {
                       <li key={index}>
                         <a
                           href={link.href}
-                          className="text-gray-100 hover:text-[#873942] transition-colors duration-200 text-sm sm:text-base block"
+                          className="text-gray-100  transition-colors duration-200 text-sm sm:text-base block"
                         >
                           {link.name}
                         </a>
@@ -130,7 +130,7 @@ const Footer = () => {
                       <li key={index}>
                         <a
                           href={link.href}
-                          className="text-gray-100 hover:text-[#873942] transition-colors duration-200 text-sm sm:text-base block"
+                          className="text-gray-100  transition-colors duration-200 text-sm sm:text-base block"
                         >
                           {link.name}
                         </a>

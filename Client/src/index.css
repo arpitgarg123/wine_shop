@@ -3,17 +3,17 @@
 /* Better font-face: add display swap + fallback formats if you have */
 @font-face {
   font-family: "nexa ";
-  src: url("./assets/fonts/Nexa-ExtraLight.ttf") format("opentype");
+  src: url("./public/fonts/Nexa-ExtraLight.woff2") format("woff2");
 
 }
 @font-face {
   font-family: "nexa-bold ";
-  src: url("./assets/fonts/Nexa-Heavy.ttf") format("opentype");
+  src: url("./public/fonts/Nexa-Heavy.woff2") format("woff2");
 
 }
 @font-face {
   font-family: "bembo ";
-  src: url("./assets/fonts/BemboBookMTStdRegular.otf") format("opentype");
+  src: url("./public/fonts/BemboBookMTStdRegular.woff2") format("woff2");
 
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .btn{
-  padding: 0.5rem 2.5rem;
+  padding: 0.4rem 2.5rem;
   border: 1px solid currentColor;
   transition: all ease 0.3s;
   cursor: pointer;
@@ -105,7 +105,7 @@ gap: 0.5rem ;
   width: fit-content;
     border: 2px solid #8B2C34;
   text-transform: uppercase;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
 
 }
 .btn:hover {

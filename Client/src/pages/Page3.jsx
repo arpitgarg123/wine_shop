@@ -4,10 +4,10 @@ import noble from '../assets/noble.webp' // Using existing image
 
 const Page3 = () => {
   return (
-    <div className="min-h-screen  w-full flex flex-col max-sm:flex-col-reverse
+    <div className="h-fit py-10 w-full flex flex-col max-sm:flex-col-reverse
  lg:flex-row justify-center max-sm:justify-center items-start bg-[#F4F3F2]">
       {/* Left Content Section */}
-      <div className="flex w-full lg:w-[50%] text-center flex-col items-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 py-8 ">
+      <div className="flex w-full lg:w-[50%] text-center flex-col items-center justify-center  px-4  mt-12 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 py-8">
         
         {/* Main Heading */}
         <motion.div
@@ -39,22 +39,7 @@ LuxuryWine            </motion.span>
           </h1>
         </motion.div>
 
-        {/* Discover More Button */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mb-6 sm:mb-8 md:mb-5 lg:mb-6 h-10"
-        >
-          <motion.button
-            whileHover={{ scale: 1 }}
-            whileTap={{ scale: 0.95 }}
-            className="btn"
-          >
-            DISCOVER MORE
-          </motion.button>
-        </motion.div>
+      
 
         {/* Description Text */}
         <motion.div
@@ -68,10 +53,26 @@ LuxuryWine            </motion.span>
            Perfect choice 🍷 Noble Hill is a South African estate known for high-quality wines with a modern yet authentic style.
           </p>
         </motion.div>
+          {/* Discover More Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          viewport={{ once: true }}
+          className="mt-6 sm:mt-8 md:mt-5 lg:mt-6 h-10"
+        >
+          <motion.button
+            whileHover={{ scale: 1 }}
+            whileTap={{ scale: 0.95 }}
+            className="btn"
+          >
+           read more
+          </motion.button>
+        </motion.div>
       </div>
 
       {/* Right Image Section */}
-      <div className=" relative w-full lg:w-[50%] overflow-hidden min-h-[40vh] sm:min-h-[50vh] md:min-h-[60vh] lg:min-h-screen">
+      <div className=" relative w-full lg:w-[50%] overflow-hidden min-h-[40vh] sm:min-h-[50vh] md:min-h-[60vh] ">
         <motion.div
           initial={{ scale: 1.1, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
